@@ -16,3 +16,7 @@ async function buscarResultados() {
 }
 
 buscarResultados();
+
+setInterval(() => {
+    buscarResultados();
+}, 5000);
